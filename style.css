@@ -1,0 +1,280 @@
+body {
+    background-color: #99ffff;
+    margin: 0px;
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body > header {
+    font-family: "Fredoka One";
+    background-color: #ccffff;
+}
+
+#logo {
+    font-family: 'Fredoka One';
+    margin: 1%;
+    width: 28%;
+    color: #ff99ff;
+    text-shadow: 
+                -1px -1px 0 aliceblue,  /* Top-left shadow */
+                1px -1px 0 aliceblue,   /* Top-right shadow */
+                -1px 1px 0 aliceblue,   /* Bottom-left shadow */
+                1px 1px 0 aliceblue;    /* Bottom-right shadow */
+}
+
+body > header > nav > ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbutton {
+    background-color: aliceblue;
+    color: #1ec0ff;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    border: 3px solid #1ec0ff;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 1vw;
+}
+
+.leaderboard {
+    background-color: aliceblue;
+    color: #ffaa00;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    border: 3px solid #ffaa00;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 1vw;
+}
+
+body > header > nav > ul > li {
+    padding: 10px;
+}
+
+#main-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 12vh;
+    
+}
+
+#nav-ul {
+    display: flex;
+}
+
+body > main {
+    margin: 1%;
+}
+
+#main-content {
+    grid-area: main;
+    margin: 5px;
+    font-family: "Fredoka One", 'Courier New';
+    text-shadow: 
+    -1px -1px 0 aliceblue,  /* Top-left shadow */
+    1px -1px 0 aliceblue,   /* Top-right shadow */
+    -1px 1px 0 aliceblue,   /* Bottom-left shadow */
+    1px 1px 0 aliceblue;    /* Bottom-right shadow */
+}
+
+#top-games {
+    display: flex;
+    justify-content:start;
+    font-size: 1vw;
+    #game-one {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #animal-connection {
+            border-radius: 10%;
+        }
+    }
+    #game-two {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #penguin-cafe {
+            border-radius: 10%;
+        }
+    }
+    #game-three {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #pixel-skate {
+            border-radius: 10%;
+        }
+    }
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: aliceblue;
+}
+
+#rec-games-row-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    #one-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #crashy-cat {
+            border-radius: 10%;
+        }
+    }
+    #two-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #sweety-memory {
+            border-radius: 10%;
+        }
+    }
+    #three-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #my-pet-clinic {
+            border-radius: 10%;
+        }
+    }
+    #four-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #happy-slushie {
+            border-radius: 10%;
+        }
+    }
+}
+
+#rec-games-row-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    #five-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #draw-racing {
+            border-radius: 10%;
+        }
+    }
+    #six-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #happy-crayon {
+            border-radius: 10%;
+        }
+    }
+    #seven-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #creative-puzzle {
+            border-radius: 10%;
+        }
+    }
+    #eight-game {
+        margin: 6px;
+        background-color: #ffdd99;
+        padding: 10px;
+        border: aliceblue 1px solid;
+        border-radius: 10%;
+        border-width: 3px;
+        #snakes-n-ladders {
+            border-radius: 10%;
+        }
+    }
+}
+
+#sidebar {
+    font-family: "Fredoka One", 'Courier New';
+    font-weight: lighter;
+    background-color: #1ec0ff;
+    margin: 6px;
+    border: 4px solid aliceblue;
+    border-radius: 1%;
+    padding: 10px;
+    grid-area: sidebar;
+}
+
+#rankings {
+    color: bisque;
+    text-shadow: 
+    -1px -1px 0 black,  /* Top-left shadow */
+    1px -1px 0 black,   /* Top-right shadow */
+    -1px 1px 0 black,   /* Bottom-left shadow */
+    1px 1px 0 black;    /* Bottom-right shadow */
+    }
+
+#podium {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ffdd99;
+}
+
+footer {
+    font-family: "Fredoka One", 'Courier New';
+    font-weight: lighter;
+    margin: 0px;
+    font-weight: bold;
+    font-size: small;
+    background-color: #ccffff;
+    display: flex;
+    grid-area: footer;
+}
+
+footer > p {
+    margin: 1%;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+      "sidebar main main main"
+      "footer footer footer footer";
+    margin: 5px;
+  }
